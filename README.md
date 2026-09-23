@@ -20,7 +20,6 @@ ANÁLISIS
 	o	Nota más alta y nota más baja.
 
 PRUEBA DE ESCRITORIO
-### Prueba de Escritorio (Caso Límite: N = 3 | Notas: 0, 7, 10)
 
 | Paso | Iteración (`i`) | `N` | Entrada (`nota`) | Validación Nota | `suma` | `aprobados` | `reprobados` | `notaMaxima` | `notaMinima` | `promedio` |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
