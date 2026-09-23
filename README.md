@@ -144,39 +144,6 @@ FinAlgoritmo
 | Acumulador | `suma` guarda el total de calificaciones. |
 | Contadores | `aprobados` y `reprobados`. |
 
-## Instrucciones de ejecución
-
-Estructura del repositorio:
-
-```
-APE-Ciclos-Java/
-│
-├── README.md
-├── Ejercicio01/
-│   └── Main.java
-├── Ejercicio02/
-│   └── Main.java
-├── ...
-├── Ejercicio10/
-│   └── Main.java
-│
-├── pseudocodigo/
-├── trazas/
-└── evidencias/
-```
-
-Requisito: tener instalado el JDK (Java 8 o superior).
-
-```bash
-# 1. Clonar el repositorio
-git clone https://github.com/<usuario>/APE-Ciclos-Java-<Apellido>.git
-cd APE-Ciclos-Java-<Apellido>
-
-# 2. Compilar y ejecutar el ejercicio deseado
-cd Ejercicio01
-javac Main.java
-java Main
-```
 
 ## Casos de prueba
 
