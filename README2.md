@@ -105,7 +105,7 @@ Algoritmo TablaMultiplicarConfigurable
         Leer tablaFinal
     FinMientras
 
-    // Desafío: multiplicador límite definido por el usuario
+    // multiplicador límite definido por el usuario
     Escribir "Hasta que multiplicador desea generar las tablas: "
     Leer limite
 
