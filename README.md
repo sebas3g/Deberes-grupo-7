@@ -204,13 +204,32 @@ El programa deberá determinar:
 
 #### Análisis
 
-* **Entradas:** 
-  * Tabla inicial (`tablaInicial`)
-  * Tabla final (`tablaFinal`)
-  * Multiplicador máximo (`limiteMultiplicador`)
-* **Validaciones:** `tablaInicial <= tablaFinal` y `limiteMultiplicador > 0`.
-* **Procesamiento:** Ciclo `for` exterior para recorrer las tablas desde `tablaInicial` hasta `tablaFinal`. Ciclo `for` interior para multiplicar la tabla actual por la secuencia del 1 al `limiteMultiplicador`.
-* **Salidas:** Encabezados de cada tabla y líneas formateadas con el resultado de cada multiplicación.
+* **Definición de Variables:**
+  * **Entradas:**
+    * `tablaInicial` (Entero): Número de la primera tabla a generar.
+    * `tablaFinal` (Entero): Número de la última tabla a generar.
+    * `limiteMultiplicador` (Entero): Número máximo hasta el cual se multiplicará cada tabla.
+  * **Variables de Control e Internas:**
+    * `i` (Entero): Contador del ciclo externo (controla la tabla actual).
+    * `j` (Entero): Contador del ciclo interno (controla el multiplicador actual).
+  * **Salidas:**
+    * `producto` (Entero): Resultado de la multiplicación actual (`i * j`).
+
+* **Restricciones y Validaciones:**
+  * Se debe validar con un ciclo `while` que la tabla inicial sea menor o igual a la tabla final (`tablaInicial <= tablaFinal`).
+  * El multiplicador máximo debe ser un entero estrictamente mayor a cero (`limiteMultiplicador > 0`).
+
+* **Procesamiento y Fórmulas:**
+  1. Solicitar y validar los datos de entrada usando la estructura `while`.
+  2. Implementar un **ciclo `for` exterior** desde `i = tablaInicial` hasta `i = tablaFinal` (paso 1) para iterar sobre cada número de tabla.
+  3. En cada vuelta del ciclo exterior, imprimir el encabezado de la tabla (ej. `TABLA DEL i`).
+  4. Implementar un **ciclo `for` interior** desde `j = 1` hasta `j = limiteMultiplicador` (paso 1) para realizar las multiplicaciones.
+  5. Calcular en cada paso la fórmula: `producto = i * j`.
+  6. Imprimir en pantalla el formato: `i x j = producto`.
+
+* **Salidas:**
+  * Título indicador para cada tabla generada.
+  * Listado completo de multiplicaciones para el rango especificado.
 
 #### Diagrama de flujo
 
