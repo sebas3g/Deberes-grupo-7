@@ -1,64 +1,73 @@
-Ciclos-Java — Taller Ciclos Grupo #7 - EJERCICIO/01
-Integrantes
-Francis Bonifaz
-Sebastian Navas
-David Punina
-Dixon Prado
-Objetivo
+# Ciclos-Java — Taller Ciclos Grupo #7 
 
-Desarrollar y fortalecer el conocimiento sobre el uso de ciclos en Java, aplicando estructuras repetitivas como while, do-while y for para resolver diferentes problemas mediante programas sencillos y prácticos.
+## Integrantes
 
-Descripción de los ejercicios
-Ejercicio 1. Control de calificaciones
+- Francis Bonifaz
+- Sebastian Navas
+- David Punina
+- Dixon Prado
 
-Desarrolle un programa que permita ingresar las calificaciones de N estudiantes. El número de estudiantes debe ser mayor que cero y cada calificación deberá estar entre 0 y 10.
+## Objetivo
+
+Desarrollar y fortalecer el conocimiento sobre el uso de ciclos en Java, aplicando estructuras repetitivas como `while`, `do-while` y `for` para resolver diferentes problemas mediante programas sencillos y prácticos.
+
+## Descripción de los ejercicios
+
+### Ejercicio 1. Control de calificaciones
+
+Desarrolle un programa que permita ingresar las calificaciones de N estudiantes.
+El número de estudiantes debe ser mayor que cero y cada calificación deberá estar entre **0 y 10**.
 
 El programa deberá determinar:
 
-número de estudiantes;
-suma de calificaciones;
-promedio general;
-cantidad de aprobados;
-cantidad de reprobados;
-nota más alta;
-nota más baja.
+- número de estudiantes;
+- suma de calificaciones;
+- promedio general;
+- cantidad de aprobados;
+- cantidad de reprobados;
+- nota más alta;
+- nota más baja.
 
-Estructuras esperadas: while para validación y for para procesamiento. Caso límite obligatorio: probar las notas 0, 7 y 10.
+**Estructuras esperadas:** `while` para validación y `for` para procesamiento.
+**Caso límite obligatorio:** probar las notas **0, 7 y 10**.
 
-Análisis
+#### Análisis
 
-Entradas
+**Entradas**
 
-Número de estudiantes N (debe cumplir N > 0).
-Las N calificaciones individuales (cada una en el rango [0, 10]).
+- Número de estudiantes `N` (debe cumplir `N > 0`).
+- Las `N` calificaciones individuales (cada una en el rango `[0, 10]`).
 
-Restricciones y validaciones
+**Restricciones y validaciones**
 
-Uso de la estructura while para validar que N > 0 y que cada nota esté entre 0 y 10.
+- Uso de la estructura `while` para validar que `N > 0` y que cada nota esté entre 0 y 10.
 
-Procesos
+**Procesos**
 
-Acumular las notas para calcular la suma total y el promedio general.
-Contar cuántos estudiantes aprobaron (nota >= 7) y cuántos reprobaron (nota < 7).
-Determinar la nota máxima y la nota mínima.
-Uso de la estructura for para iterar exactamente N veces.
+- Acumular las notas para calcular la suma total y el promedio general.
+- Contar cuántos estudiantes aprobaron (`nota >= 7`) y cuántos reprobaron (`nota < 7`).
+- Determinar la nota máxima y la nota mínima.
+- Uso de la estructura `for` para iterar exactamente `N` veces.
 
-Salidas
+**Salidas**
 
-Número total de estudiantes.
-Suma total de calificaciones.
-Promedio general.
-Cantidad de aprobados y reprobados.
-Nota más alta y nota más baja.
+- Número total de estudiantes.
+- Suma total de calificaciones.
+- Promedio general.
+- Cantidad de aprobados y reprobados.
+- Nota más alta y nota más baja.
 
 
 
-Diagrama de flujo
+#### Diagrama de flujo
+
 <img width="2280" height="8140" alt="Diagrama de flujo - Ejercicio 1" src="https://github.com/user-attachments/assets/fdde3d2c-da44-4461-84ef-17df2e55f607" />
 
 
 
-Pseudocódigo
+#### Pseudocódigo
+
+```
 Algoritmo ControlCalificaciones
     Definir n, i, aprobados, reprobados Como Entero
     Definir nota, suma, notaMax, notaMin, promedio Como Real
@@ -123,16 +132,42 @@ Algoritmo ControlCalificaciones
     Escribir "Nota mas baja: ", notaMin
 
 FinAlgoritmo
-Estructuras utilizadas
-Estructura	Uso en el Ejercicio 1
-while	Validar que N > 0 y que cada nota esté entre 0 y 10 (se repite hasta recibir un dato válido).
-for	Recorrer exactamente N estudiantes para leer y procesar cada calificación.
-if / else	Clasificar aprobados/reprobados y actualizar la nota más alta y más baja.
-Acumulador	suma guarda el total de calificaciones.
-Contadores	aprobados y reprobados.
-Instrucciones de ejecución
+```
 
-bash
+## Estructuras utilizadas
+
+| Estructura | Uso en el Ejercicio 1 |
+| :--- | :--- |
+| `while` | Validar que `N > 0` y que cada nota esté entre 0 y 10 (se repite hasta recibir un dato válido). |
+| `for` | Recorrer exactamente `N` estudiantes para leer y procesar cada calificación. |
+| `if / else` | Clasificar aprobados/reprobados y actualizar la nota más alta y más baja. |
+| Acumulador | `suma` guarda el total de calificaciones. |
+| Contadores | `aprobados` y `reprobados`. |
+
+## Instrucciones de ejecución
+
+Estructura del repositorio:
+
+```
+APE-Ciclos-Java/
+│
+├── README.md
+├── Ejercicio01/
+│   └── Main.java
+├── Ejercicio02/
+│   └── Main.java
+├── ...
+├── Ejercicio10/
+│   └── Main.java
+│
+├── pseudocodigo/
+├── trazas/
+└── evidencias/
+```
+
+Requisito: tener instalado el JDK (Java 8 o superior).
+
+```bash
 # 1. Clonar el repositorio
 git clone https://github.com/<usuario>/APE-Ciclos-Java-<Apellido>.git
 cd APE-Ciclos-Java-<Apellido>
@@ -141,32 +176,37 @@ cd APE-Ciclos-Java-<Apellido>
 cd Ejercicio01
 javac Main.java
 java Main
+```
 
-Casos de prueba
+## Casos de prueba
 
-| Paso | Iteración (`i`) | `N` | Entrada (`nota`) | Validación Nota | `suma` | `aprobados` | `reprobados` | `notaMaxima` | `notaMinima` | `promedio` |
+### Prueba de escritorio — Ejercicio 1 (caso límite: notas 0, 7 y 10)
+
+| Paso | Iteración (`i`) | `N` | Entrada (`nota`) | Validación | `suma` | `aprobados` | `reprobados` | `notaMax` | `notaMin` | `promedio` |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Inicio** | - | 3 | - | Válido (3 > 0) | 0.0 | 0 | 0 | -1.0 | 11.0 | - |
+| **Inicio** | - | 3 | - | Válido (3 > 0) | 0.0 | 0 | 0 | - | - | - |
 | **Iteración 1** | 1 | 3 | 0.0 | Válida (0 entre 0 y 10) | 0.0 | 0 | 1 | 0.0 | 0.0 | - |
 | **Iteración 2** | 2 | 3 | 7.0 | Válida (7 entre 0 y 10) | 7.0 | 1 | 1 | 7.0 | 0.0 | - |
 | **Iteración 3** | 3 | 3 | 10.0 | Válida (10 entre 0 y 10) | 17.0 | 2 | 1 | 10.0 | 0.0 | - |
-| **Fin Ciclo** | - | 3 | - | - | 17.0 | 2 | 1 | 10.0 | 0.0 | **5.67** |
+| **Fin del ciclo** | - | 3 | - | - | 17.0 | 2 | 1 | 10.0 | 0.0 | **5.67** |
 
-Casos de validación
+### Casos de validación
 
-Caso	Entrada	Resultado esperado
-N no válido	N = 0 o N = -2	Muestra "El numero de estudiantes debe ser mayor que cero" y vuelve a pedir N.
-Nota menor al rango	nota = -1	Muestra "Calificacion invalida" y vuelve a pedir la nota.
-Nota mayor al rango	nota = 11	Muestra "Calificacion invalida" y vuelve a pedir la nota.
-Nota límite de aprobación	nota = 7	Se cuenta como aprobado.
-Un solo estudiante	N = 1, nota = 8	Suma 8, promedio 8, 1 aprobado, nota más alta y más baja = 8.
-Capturas o evidencias
+| Caso | Entrada | Resultado esperado |
+| :--- | :--- | :--- |
+| N no válido | `N = 0` o `N = -2` | Muestra "El numero de estudiantes debe ser mayor que cero" y vuelve a pedir N. |
+| Nota menor al rango | `nota = -1` | Muestra "Calificacion invalida" y vuelve a pedir la nota. |
+| Nota mayor al rango | `nota = 11` | Muestra "Calificacion invalida" y vuelve a pedir la nota. |
+| Nota límite de aprobación | `nota = 7` | Se cuenta como **aprobado**. |
+| Un solo estudiante | `N = 1`, `nota = 8` | Suma 8, promedio 8, 1 aprobado, nota más alta y más baja = 8. |
 
-<img width="486" height="470" alt="image" src="https://github.com/user-attachments/assets/ab013d51-85ad-409f-b2f7-090590f1e8e4" />
+## Capturas o evidencias
 
+<img width="486" height="470" alt="image" src="https://github.com/user-attachments/assets/819c433e-4fdd-4721-87a3-8f3770173305" />
 
-Conclusiones
-El ciclo while es adecuado para validar datos de entrada, ya que repite la solicitud hasta que el usuario ingresa un valor correcto.
-El ciclo for es ideal cuando se conoce de antemano el número de repeticiones, como al procesar exactamente N calificaciones.
-El uso de acumuladores y contadores dentro de los ciclos permite obtener sumas, promedios y conteos de forma sencilla.
-Probar los casos límite (0, 7 y 10) permite comprobar que las validaciones y la condición de aprobación (>= 7) funcionan correctamente.
+## Conclusiones
+
+- El ciclo `while` es adecuado para validar datos de entrada, ya que repite la solicitud hasta que el usuario ingresa un valor correcto.
+- El ciclo `for` es ideal cuando se conoce de antemano el número de repeticiones, como al procesar exactamente N calificaciones.
+- El uso de acumuladores y contadores dentro de los ciclos permite obtener sumas, promedios y conteos de forma sencilla.
+- Probar los casos límite (0, 7 y 10) permite comprobar que las validaciones y la condición de aprobación (`>= 7`) funcionan correctamente.
