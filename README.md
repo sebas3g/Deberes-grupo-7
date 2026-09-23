@@ -319,15 +319,18 @@ FinAlgoritmo
 
 ## Casos de prueba
 
-### Prueba de escritorio — Ejercicio 1 (caso límite: notas 0, 7 y 10)
+### Prueba de Escritorio - Ejercicio 2 (Caso: Tabla Inicial = 3, Tabla Final = 4, Hasta el 2)
 
-| Paso | Iteración (`i`) | `N` | Entrada (`nota`) | Validación | `suma` | `aprobados` | `reprobados` | `notaMax` | `notaMin` | `promedio` |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Inicio** | - | 3 | - | Válido (3 > 0) | 0.0 | 0 | 0 | - | - | - |
-| **Iteración 1** | 1 | 3 | 0.0 | Válida (0 entre 0 y 10) | 0.0 | 0 | 1 | 0.0 | 0.0 | - |
-| **Iteración 2** | 2 | 3 | 7.0 | Válida (7 entre 0 y 10) | 7.0 | 1 | 1 | 7.0 | 0.0 | - |
-| **Iteración 3** | 3 | 3 | 10.0 | Válida (10 entre 0 y 10) | 17.0 | 2 | 1 | 10.0 | 0.0 | - |
-| **Fin del ciclo** | - | 3 | - | - | 17.0 | 2 | 1 | 10.0 | 0.0 | **5.67** |
+| Paso | Tabla (`i`) | Multiplicador (`j`) | Operación | Resultado | Salida |
+| :--- | :---: | :---: | :---: | :---: | :--- |
+| Inicio | - | - | - | - | Entrada de datos |
+| Encabezado | 3 | - | - | - | `=== TABLA DEL 3 ===` |
+| Iteración 1.1 | 3 | 1 | 3 * 1 | 3 | `3 x 1 = 3` |
+| Iteración 1.2 | 3 | 2 | 3 * 2 | 6 | `3 x 2 = 6` |
+| Encabezado | 4 | - | - | - | `=== TABLA DEL 4 ===` |
+| Iteración 2.1 | 4 | 1 | 4 * 1 | 4 | `4 x 1 = 4` |
+| Iteración 2.2 | 4 | 2 | 4 * 2 | 8 | `4 x 2 = 8` |
+| Fin | - | - | - | - | Fin del programa |
 
 ### Casos de validación
 
