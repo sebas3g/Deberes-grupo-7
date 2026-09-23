@@ -28,7 +28,16 @@ El programa deberá determinar:
 - nota más alta;
 - nota más baja.
 
-**Estructuras esperadas:** `while` para validación y `for` para procesamiento.
+## Estructuras utilizadas
+
+| Estructura | Uso en el Ejercicio 1 |
+| :--- | :--- |
+| `while` | Validar que `N > 0` y que cada nota esté entre 0 y 10 (se repite hasta recibir un dato válido). |
+| `for` | Recorrer exactamente `N` estudiantes para leer y procesar cada calificación. |
+| `if / else` | Clasificar aprobados/reprobados y actualizar la nota más alta y más baja. |
+| Acumulador | `suma` guarda el total de calificaciones. |
+| Contadores | `aprobados` y `reprobados`. |
+
 **Caso límite obligatorio:** probar las notas **0, 7 y 10**.
 
 #### Análisis
@@ -133,17 +142,6 @@ Algoritmo ControlCalificaciones
 
 FinAlgoritmo
 ```
-
-## Estructuras utilizadas
-
-| Estructura | Uso en el Ejercicio 1 |
-| :--- | :--- |
-| `while` | Validar que `N > 0` y que cada nota esté entre 0 y 10 (se repite hasta recibir un dato válido). |
-| `for` | Recorrer exactamente `N` estudiantes para leer y procesar cada calificación. |
-| `if / else` | Clasificar aprobados/reprobados y actualizar la nota más alta y más baja. |
-| Acumulador | `suma` guarda el total de calificaciones. |
-| Contadores | `aprobados` y `reprobados`. |
-
 
 ## Casos de prueba
 
