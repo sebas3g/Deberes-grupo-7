@@ -141,6 +141,7 @@ cd APE-Ciclos-Java-<Apellido>
 cd Ejercicio01
 javac Main.java
 java Main
+
 Casos de prueba
 
 | Paso | Iteración (`i`) | `N` | Entrada (`nota`) | Validación Nota | `suma` | `aprobados` | `reprobados` | `notaMaxima` | `notaMinima` | `promedio` |
