@@ -204,29 +204,13 @@ El programa deberá determinar:
 
 #### Análisis
 
-**Entradas**
-
-- Número de estudiantes `N` (debe cumplir `N > 0`).
-- Las `N` calificaciones individuales (cada una en el rango `[0, 10]`).
-
-**Restricciones y validaciones**
-
-- Uso de la estructura `while` para validar que `N > 0` y que cada nota esté entre 0 y 10.
-
-**Procesos**
-
-- Acumular las notas para calcular la suma total y el promedio general.
-- Contar cuántos estudiantes aprobaron (`nota >= 7`) y cuántos reprobaron (`nota < 7`).
-- Determinar la nota máxima y la nota mínima.
-- Uso de la estructura `for` para iterar exactamente `N` veces.
-
-**Salidas**
-
-- Número total de estudiantes.
-- Suma total de calificaciones.
-- Promedio general.
-- Cantidad de aprobados y reprobados.
-- Nota más alta y nota más baja.
+* **Entradas:** 
+  * Tabla inicial (`tablaInicial`)
+  * Tabla final (`tablaFinal`)
+  * Multiplicador máximo (`limiteMultiplicador`)
+* **Validaciones:** `tablaInicial <= tablaFinal` y `limiteMultiplicador > 0`.
+* **Procesamiento:** Ciclo `for` exterior para recorrer las tablas desde `tablaInicial` hasta `tablaFinal`. Ciclo `for` interior para multiplicar la tabla actual por la secuencia del 1 al `limiteMultiplicador`.
+* **Salidas:** Encabezados de cada tabla y líneas formateadas con el resultado de cada multiplicación.
 
 #### Diagrama de flujo
 
