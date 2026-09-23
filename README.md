@@ -1,4 +1,29 @@
-# Deberes-grupo-7
+# Taller Ciclos Grupo #7
+
+## Integrantes
+- Francis Bonifaz
+- Sebastian Navas
+- David Punina
+- Dixon Prado
+
+## Objetivo
+Desarrollar y fortalecer el conocimiento sobre el uso de ciclos en Java, aplicando estructuras repetitivas como while, do-while y for para resolver diferentes problemas mediante programas sencillos y prácticos.
+
+## Descripción de los ejercicios
+## Ejercicio 1. Control de calificaciones
+Desarrolle un programa que permita ingresar las calificaciones de N estudiantes.
+El número de estudiantes debe ser mayor que cero y cada calificación deberá estar entre e y 18.
+El programa deberá determinar:
+* número de estudiantes;
+* suma de calificaciones;
+* promedio general;
+* cantidad de aprobados;
+* cantidad de reprobados;
+* nota más alta;
+* nota más baja.
+Estructuras esperadas: while para validación y for para procesamiento.
+Caso límite obligatorio: probar notas 8, 7 y 18.
+
 **ANÁLISIS**
 •	Entradas:
 	o	Número de estudiantes N (debe ser N > 0).
