@@ -29,6 +29,8 @@ PRUEBA DE ESCRITORIO
 | **Iteración 3** | 3 | 3 | 10.0 | Válida (10 entre 0 y 10) | 17.0 | 2 | 1 | 10.0 | 0.0 | - |
 | **Fin Ciclo** | - | 3 | - | - | 17.0 | 2 | 1 | 10.0 | 0.0 | **5.67** |
 
+DIAGRAMA DE FLUJO 
+<img width="2280" height="8140" alt="image" src="https://github.com/user-attachments/assets/fdde3d2c-da44-4461-84ef-17df2e55f607" />
 
 PSEUDOCODIGO
 Algoritmo ControlCalificaciones
