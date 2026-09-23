@@ -142,14 +142,17 @@ cd Ejercicio01
 javac Main.java
 java Main
 Casos de prueba
-Prueba de escritorio — Ejercicio 1 (caso límite: notas 0, 7 y 10)
-Paso	Iteración (i)	N	Entrada (nota)	Validación	suma	aprobados	reprobados	notaMax	notaMin	promedio
-Inicio	-	3	-	Válido (3 > 0)	0.0	0	0	-	-	-
-Iteración 1	1	3	0.0	Válida (0 entre 0 y 10)	0.0	0	1	0.0	0.0	-
-Iteración 2	2	3	7.0	Válida (7 entre 0 y 10)	7.0	1	1	7.0	0.0	-
-Iteración 3	3	3	10.0	Válida (10 entre 0 y 10)	17.0	2	1	10.0	0.0	-
-Fin del ciclo	-	3	-	-	17.0	2	1	10.0	0.0	5.67
+
+| Paso | Iteración (`i`) | `N` | Entrada (`nota`) | Validación Nota | `suma` | `aprobados` | `reprobados` | `notaMaxima` | `notaMinima` | `promedio` |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Inicio** | - | 3 | - | Válido (3 > 0) | 0.0 | 0 | 0 | -1.0 | 11.0 | - |
+| **Iteración 1** | 1 | 3 | 0.0 | Válida (0 entre 0 y 10) | 0.0 | 0 | 1 | 0.0 | 0.0 | - |
+| **Iteración 2** | 2 | 3 | 7.0 | Válida (7 entre 0 y 10) | 7.0 | 1 | 1 | 7.0 | 0.0 | - |
+| **Iteración 3** | 3 | 3 | 10.0 | Válida (10 entre 0 y 10) | 17.0 | 2 | 1 | 10.0 | 0.0 | - |
+| **Fin Ciclo** | - | 3 | - | - | 17.0 | 2 | 1 | 10.0 | 0.0 | **5.67** |
+
 Casos de validación
+
 Caso	Entrada	Resultado esperado
 N no válido	N = 0 o N = -2	Muestra "El numero de estudiantes debe ser mayor que cero" y vuelve a pedir N.
 Nota menor al rango	nota = -1	Muestra "Calificacion invalida" y vuelve a pedir la nota.
