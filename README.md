@@ -1,12 +1,12 @@
 # Deberes-grupo-7
-ANÁLISIS
+**ANÁLISIS**
 •	Entradas:
 	o	Número de estudiantes N (debe ser N > 0).
 	o	Las N calificaciones individuales (cada calificación debe estar en el rango [0, 10]).
 	Restricciones y Validaciones:
     o	Uso de estructura while para validar que N > 0 y que cada nota esté entre 0 y 10.
 
-•	Procesamiento:
+•	Procesos:
 	o	Acumular las notas para calcular la suma total y el promedio general.
 	o	Contar cuántos estudiantes aprobaron (nota >= 7.0) y cuántos reprobaron (nota < 7.0).
 	o	Determinar la nota máxima y la nota mínima procesadas.
@@ -19,7 +19,7 @@ ANÁLISIS
 	o	Cantidad de aprobados y reprobados.
 	o	Nota más alta y nota más baja.
 
-PRUEBA DE ESCRITORIO
+**PRUEBA DE ESCRITORIO**
 
 | Paso | Iteración (`i`) | `N` | Entrada (`nota`) | Validación Nota | `suma` | `aprobados` | `reprobados` | `notaMaxima` | `notaMinima` | `promedio` |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -29,10 +29,12 @@ PRUEBA DE ESCRITORIO
 | **Iteración 3** | 3 | 3 | 10.0 | Válida (10 entre 0 y 10) | 17.0 | 2 | 1 | 10.0 | 0.0 | - |
 | **Fin Ciclo** | - | 3 | - | - | 17.0 | 2 | 1 | 10.0 | 0.0 | **5.67** |
 
-DIAGRAMA DE FLUJO 
+**DIAGRAMA DE FLUJO**
+
 <img width="2280" height="8140" alt="image" src="https://github.com/user-attachments/assets/fdde3d2c-da44-4461-84ef-17df2e55f607" />
 
-PSEUDOCODIGO
+**PSEUDOCODIGO**
+
 Algoritmo ControlCalificaciones
 	Definir n, i, nota, suma, aprobados, reprobados, notaMax, notaMin Como Entero
 	Definir promedio Como Real
