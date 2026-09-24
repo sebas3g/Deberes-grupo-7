@@ -1,5 +1,20 @@
 # EJERCICIO 7 - Control de ventas de cafetería
 
+### Estructuras utilizadas
+
+| Estructura | Definición |
+|---|---|
+| `do-while` externo | Mantener el menú activo hasta que el usuario elija `4. Salir`. |
+| `do-while` internos | Validar que `producto` esté entre 1 y 4 y que `cantidad` sea mayor que cero. |
+| `switch` (menú) | Ejecutar la opción elegida: registrar venta, mostrar estadísticas, mostrar tabla de productos, salir o rechazar una opción inválida (`default`). |
+| `switch` (producto) | Asignar el `precio` y acumular la cantidad vendida del producto seleccionado. |
+| Condicionales `if` | Verificar si `numVentas` es cero antes de mostrar estadísticas y comparar las cantidades para hallar el producto más vendido. |
+| Contadores | `numVentas` cuenta las ventas realizadas. |
+| Acumuladores | `cantidadTotal`, `totalRecaudado`, `cantCafe`, `cantSandwich`, `cantJugo` y `cantEmpanada` acumulan unidades y dinero. |
+| Cálculo final | `promedio` = `totalRecaudado / numVentas`, usado en las estadísticas. |
+| Variable de control | `opcion` (opción del menú) y `producto` (producto elegido en la venta). |
+
+
 #### ANÁLISIS
 
 * **Definición de Variables:**
