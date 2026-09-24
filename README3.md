@@ -111,3 +111,11 @@ FinAlgoritmo
 | **Inicio** | 2 | Válido (2 > 0) | - | - | - | 0 | 0 | - | `"Serie: "` |
 | **Iter. 1** | 2 | - | 2 | Válido (2 <= 2) | `2` | 1 | 2 | - | `2` |
 | **Fin Ciclo**| 2 | - | 4 | Falso (4 > 2) | - | 1 | 2 | **2.0** | `"Cantidad: 1, Suma: 2, Promedio: 2.0"` |
+
+#### EVIDENCIAS / CAPTURAS
+<img width="384" height="190" alt="WhatsApp Image 2026-09-24 at 11 44 30 AM" src="https://github.com/user-attachments/assets/73e07801-a144-4e80-9964-33b0895eccfd" />
+
+#### CONCLUSIONES
+Se aprendió a utilizar el ciclo for para mostrar los números pares hasta un valor ingresado.
+
+Se reforzó el uso de contadores y acumuladores para calcular la cantidad, suma y promedio.
