@@ -150,3 +150,9 @@ FinAlgoritmo
 ## Capturas o evidencias
 
 <img width="508" height="514" alt="image" src="https://github.com/user-attachments/assets/8e5b4bc7-6072-4f57-bb99-803c39f9fefb" />
+
+### CONCLUSIONES
+
+Se aprendió a utilizar switch para seleccionar el tipo de vehículo y calcular su tarifa.
+
+Se reforzó el uso de contadores y acumuladores para obtener el total de vehículos, dinero recaudado y promedio.
