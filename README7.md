@@ -59,6 +59,15 @@
 * **Salidas:**
   * Reporte de estadísticas con: número de ventas, cantidad total de productos, total recaudado, promedio por venta y producto con mayor cantidad vendida.
 
+
+  **DIAGRAMA DE FLUJO**
+
+
+  <img width="1600" height="1458" alt="image" src="https://github.com/user-attachments/assets/f1ebc5b3-c39e-44dd-ac19-35e642598c04" />
+
+
+
+
 #### PSEUDOCODIGO 
 
 
