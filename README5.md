@@ -141,3 +141,6 @@ FinAlgoritmo
 | **Vehículo 3** | 3 (Camioneta) | 4.0 | Válido (4.0 > 0) | 1.50 | 6.00 | 1 | 1 | 1 | 3 | 10.00 | No |
 | **Fin Do-While**| - | - | - | - | - | 1 | 1 | 1 | 3 | 10.00 | - |
 
+## Capturas o evidencias
+
+<img width="508" height="514" alt="image" src="https://github.com/user-attachments/assets/8e5b4bc7-6072-4f57-bb99-803c39f9fefb" />
