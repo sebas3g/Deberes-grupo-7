@@ -39,7 +39,83 @@
 * **Salidas:**
   * Reporte impreso al finalizar el ciclo con el desglose de contadores por tipo de vehículo, el total acumulado y el promedio general.
 
+## PSEUCODIGO
 
+    
+    Algoritmo Estacionamiento
+    Definir tipo, motos, autos, camionetas, totalVehiculos Como Entero
+    Definir horas, tarifa, pago, totalRecaudado, promedio Como Real
+    Definir respuesta Como Caracter
+
+    motos <- 0
+    autos <- 0
+    camionetas <- 0
+    totalVehiculos <- 0
+    totalRecaudado <- 0
+
+    Repetir
+        // Validar tipo de vehiculo
+        Repetir
+            Escribir "Tipo de vehiculo:"
+            Escribir "1. Motocicleta"
+            Escribir "2. Automovil"
+            Escribir "3. Camioneta"
+            Leer tipo
+            Si tipo < 1 O tipo > 3 Entonces
+                Escribir "Tipo no valido, elija 1, 2 o 3"
+            FinSi
+        Hasta Que tipo >= 1 Y tipo <= 3
+
+        // Validar horas
+        Repetir
+            Escribir "Horas estacionado: "
+            Leer horas
+            Si horas <= 0 Entonces
+                Escribir "Error: las horas deben ser mayores que cero"
+            FinSi
+        Hasta Que horas > 0
+
+        // Asignar tarifa y contar segun el tipo
+        Segun tipo Hacer
+            1:
+                tarifa <- 0.50
+                motos <- motos + 1
+            2:
+                tarifa <- 1.00
+                autos <- autos + 1
+            3:
+                tarifa <- 1.50
+                camionetas <- camionetas + 1
+        FinSegun
+
+        pago <- horas * tarifa
+        totalRecaudado <- totalRecaudado + pago
+        totalVehiculos <- totalVehiculos + 1
+        Escribir "Valor a pagar: $", pago
+
+        // Preguntar si continua
+        Repetir
+            Escribir "Registrar otro vehiculo? (S/N): "
+            Leer respuesta
+            respuesta <- Mayusculas(respuesta)
+            Si respuesta <> "S" Y respuesta <> "N" Entonces
+                Escribir "Responda solo S o N"
+            FinSi
+        Hasta Que respuesta = "S" O respuesta = "N"
+    Hasta Que respuesta = "N"
+
+    // El ciclo se ejecuta al menos una vez, por eso totalVehiculos >= 1
+    promedio <- totalRecaudado / totalVehiculos
+
+    Escribir "===== REPORTE ====="
+    Escribir "Motocicletas: ", motos
+    Escribir "Automoviles: ", autos
+    Escribir "Camionetas: ", camionetas
+    Escribir "Total vehiculos: ", totalVehiculos
+    Escribir "Total recaudado: $", totalRecaudado
+    Escribir "Promedio pagado: $", promedio
+    Escribir "==================="
+FinAlgoritmo
 
 ##### PRUEBA DE ESCRITORIO
 
