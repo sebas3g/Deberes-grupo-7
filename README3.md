@@ -1,4 +1,4 @@
-### EJERCICIO 3
+### EJERCICIO 3 - Serie y suma de números pares
 
 #### ANÁLISIS
 
