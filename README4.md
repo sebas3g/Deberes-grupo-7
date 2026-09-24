@@ -160,6 +160,8 @@ FinAlgoritmo
 
 <img width="392" height="420" alt="WhatsApp Image 2026-09-24 at 11 48 28 AM" src="https://github.com/user-attachments/assets/bc9a60b2-d4a7-4ce0-80a5-0e9c8ce5d614" />
 <img width="328" height="395" alt="WhatsApp Image 2026-09-24 at 11 48 28 AM (1)" src="https://github.com/user-attachments/assets/a3b7cd8b-6160-4f10-905e-fb893f5a2a7b" />
+<img width="374" height="484" alt="WhatsApp Image 2026-09-24 at 11 48 28 AM (2)" src="https://github.com/user-attachments/assets/1cc217ac-635f-424e-9770-9f275618a61e" />
+
 
 
 #### CONCLUSIONES
