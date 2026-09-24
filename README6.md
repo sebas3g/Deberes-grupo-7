@@ -1,4 +1,4 @@
-# EJERCICIO 6
+# EJERCICIO 6 - Triángulo y patrones
 
 #### ANÁLISIS
 
