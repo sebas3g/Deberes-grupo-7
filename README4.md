@@ -155,3 +155,15 @@ FinAlgoritmo
 | **Paso 2** | 3 (Retirar) | - | $200.00 | Inválido (200 > 150) | $150.00 | 1 | 0 | $50.00 | $0.00 | `"Error: Fondos insuficientes"`[cite: 3] |
 | **Paso 3** | 3 (Retirar) | - | $30.00 | Válido (30 <= 150) | $120.00 | 1 | 1 | $50.00 | $30.00 | `"Retiro exitoso. Saldo: $120.00"`[cite: 3] |
 | **Paso 4** | 5 (Salir) | - | - | Finalizar programa | $120.00 | 1 | 1 | $50.00 | $30.00 | Muestra el reporte final y termina[cite: 3] |
+
+#### EVIDENCIAS / CAPTURAS
+
+<img width="392" height="420" alt="WhatsApp Image 2026-09-24 at 11 48 28 AM" src="https://github.com/user-attachments/assets/bc9a60b2-d4a7-4ce0-80a5-0e9c8ce5d614" />
+<img width="328" height="395" alt="WhatsApp Image 2026-09-24 at 11 48 28 AM (1)" src="https://github.com/user-attachments/assets/a3b7cd8b-6160-4f10-905e-fb893f5a2a7b" />
+
+
+#### CONCLUSIONES
+
+Se logró crear un menú utilizando do-while y switch para controlar las diferentes opciones.
+
+Se aplicaron validaciones, contadores y acumuladores para controlar los depósitos, retiros y el saldo.
