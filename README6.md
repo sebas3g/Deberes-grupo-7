@@ -34,9 +34,8 @@
 * **Salidas:**
   * Impresión secuencial en consola de los 3 patrones gráficos y numéricos.
 
----
 
-## PSEUDOCODIGO
+#### PSEUDOCODIGO
 
 
     Algoritmo TrianguloYPatrones
