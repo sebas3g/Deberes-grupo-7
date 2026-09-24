@@ -36,6 +36,46 @@
 
 ---
 
+## PSEUDOCODIGO
+
+
+    Algoritmo TrianguloYPatrones
+    Definir n, i, j Como Entero
+
+    // Validar numero entre 2 y 10
+    Repetir
+        Escribir "Ingrese un numero entre 2 y 10: "
+        Leer n
+        Si n < 2 O n > 10 Entonces
+            Escribir "Numero fuera de rango"
+        FinSi
+    Hasta Que n >= 2 Y n <= 10
+
+    // Patron 1: triangulo creciente de asteriscos
+    Para i <- 1 Hasta n Con Paso 1 Hacer
+        Para j <- 1 Hasta i Con Paso 1 Hacer
+            Escribir Sin Saltar "*"
+        FinPara
+        Escribir ""
+    FinPara
+
+    // Patron 2: triangulo decreciente de asteriscos
+    Para i <- n Hasta 1 Con Paso -1 Hacer
+        Para j <- 1 Hasta i Con Paso 1 Hacer
+            Escribir Sin Saltar "*"
+        FinPara
+        Escribir ""
+    FinPara
+
+    // Patron 3: triangulo de numeros
+    Para i <- 1 Hasta n Con Paso 1 Hacer
+        Para j <- 1 Hasta i Con Paso 1 Hacer
+            Escribir Sin Saltar j
+        FinPara
+        Escribir ""
+    FinPara
+FinAlgoritmo
+
 #### PRUEBA DE ESCRITORIO
 
 | Patrón | Fila Ext. (`i`) | Condición Ext. | Elemento Int. (`j`) | Condición Int. | Salida Generada en Consola | Estado / Explicación de la Interacción |
