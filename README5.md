@@ -52,6 +52,12 @@
 
 * **Salidas:**
   * Reporte impreso al finalizar el ciclo con el desglose de contadores por tipo de vehículo, el total acumulado y el promedio general.
+**DIAGRAMA DE FLUJO**
+
+
+<img width="504" height="1600" alt="image" src="https://github.com/user-attachments/assets/8e697887-05d3-4c89-80a9-1d6499af41e8" />
+
+
 
 #### PSEUCODIGO
 
