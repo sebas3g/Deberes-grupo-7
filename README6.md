@@ -1,5 +1,19 @@
 # EJERCICIO 6 - Triángulo y patrones
 
+### Estructuras utilizadas
+
+| Estructura | Definición |
+|---|---|
+| `do-while` | Validar que el número `n` ingresado esté entre 2 y 10. |
+| `for` externo (patrón 1) | Recorrer cada fila desde `1` hasta `n`. |
+| `for` interno anidado (patrón 1) | Imprimir un `*` por cada columna desde `1` hasta `i`, es decir, tantos asteriscos como indique la fila actual. |
+| `for` externo (patrón 2) | Recorrer las filas de forma decreciente, desde `n` hasta `1` con paso `-1`. |
+| `for` interno anidado (patrón 2) | Imprimir los asteriscos de cada fila desde `1` hasta `i`. |
+| `for` externo (patrón 3) | Recorrer cada fila desde `1` hasta `n`. |
+| `for` interno anidado (patrón 3) | Imprimir el valor de `j` desde `1` hasta `i`, para formar `1`, `12`, `123`, etc. |
+| Variable de control | `i` (fila actual) y `j` (columna o elemento actual dentro de la fila). |
+
+
 #### ANÁLISIS
 
 * **Definición de Variables:**
