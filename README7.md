@@ -196,3 +196,11 @@ FinAlgoritmo
 | **Venta 2** | 1 | 2 (Sándwich) | 2 | $2.50 | $5.00 | 2 | 5 | $8.00 | 3 | 2 | Venta registrada |
 | **Reporte**| 2 | - | - | - | - | 2 | 5 | $8.00 | 3 | 2 | Genera Estadísticas |
 | **Salir** | 4 | - | - | - | - | 2 | 5 | $8.00 | 3 | 2 | Fin de ejecución |
+#### EVIDENCIAS / CAPTURAS
+<img width="308" height="531" alt="WhatsApp Image 2026-09-24 at 11 39 32 AM" src="https://github.com/user-attachments/assets/464628c4-fe2d-4b76-a3d6-694f52bd2297" />
+<img width="488" height="528" alt="WhatsApp Image 2026-09-24 at 11 39 32 AM (1)" src="https://github.com/user-attachments/assets/7de9bc90-9af7-4321-9ef7-07f9111725d5" />
+
+#### CONSLUSIONES
+Se desarrolló un sistema para registrar ventas y obtener estadísticas de los productos vendidos.
+
+Se reforzó el uso de do-while, switch, contadores, acumuladores y condicionales para procesar la información.
