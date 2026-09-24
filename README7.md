@@ -44,7 +44,7 @@
 * **Salidas:**
   * Reporte de estadísticas con: número de ventas, cantidad total de productos, total recaudado, promedio por venta y producto con mayor cantidad vendida.
 
-## PSEUDOCODIGO 
+#### PSEUDOCODIGO 
 
 
     Algoritmo CafeteriaUniversitaria
@@ -163,7 +163,7 @@
     Hasta Que opcion = 4
 FinAlgoritmo
 
-### PRUEBA DE ESCRITORIO
+#### PRUEBA DE ESCRITORIO
 
 | Paso | Opción Menú | Producto (`opcionProducto`) | Cantidad (`cantidad`) | Precio (`precioUnitario`) | Subtotal (`montoVenta`) | `totalVentas` | `totalProductos` | `totalRecaudado` | `cantCafe` | `cantSandwich` | Estado / Salida |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
