@@ -1,4 +1,4 @@
-# EJERCICIO 7
+# EJERCICIO 7 - Control de ventas de cafetería
 
 #### ANÁLISIS
 
