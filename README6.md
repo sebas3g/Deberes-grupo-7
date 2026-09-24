@@ -119,5 +119,6 @@ FinAlgoritmo
 #### CONCLUSIONES
 
 Se comprendió el funcionamiento de los ciclos for anidados para generar diferentes patrones.
+
 Se pudo observar cómo el ciclo exterior controla las filas y el ciclo interior controla los elementos de cada fila.
 
