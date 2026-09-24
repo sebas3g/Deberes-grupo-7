@@ -1,5 +1,19 @@
 # EJERCICIO 5 - Estacionamiento universitario
 
+### Estructuras utilizadas
+
+| Estructura | Uso en el Ejercicio 5 |
+|---|---|
+| `do-while` externo | Repetir el registro de vehículos hasta que el usuario responda `N` en `respuesta`. |
+| `do-while` internos | Validar que `tipo` esté entre 1 y 3, que `horas` sea mayor que cero y que `respuesta` sea `S` o `N`. |
+| `switch` | Asignar la `tarifa` y aumentar el contador correspondiente según el `tipo` de vehículo. |
+| `if` | Mostrar el mensaje de error cuando el tipo o las horas ingresadas no son válidos. |
+| Contadores | `motos`, `autos`, `camionetas` y `totalVehiculos` cuentan los vehículos registrados. |
+| Acumuladores | `totalRecaudado` suma el `pago` de cada vehículo (`horas * tarifa`). |
+| Cálculo final | `promedio` = `totalRecaudado / totalVehiculos`, usado en el reporte. |
+| Variable de control | `tipo` (tipo de vehículo actual) y `respuesta` (decisión de continuar o terminar). |
+
+
 #### ANÁLISIS
 
 * **Definición de Variables:**
