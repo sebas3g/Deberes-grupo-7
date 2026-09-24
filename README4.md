@@ -1,14 +1,17 @@
 # EJERCICIO 4 - Cajero automático básico
 
-## Estructuras utilizadas
-Estructura	Uso en el Ejercicio 4
-do-while	Mantener el menú activo hasta que el usuario elija Salir (5 o S).
-switch	Ejecutar la acción según opcion: consultar saldo, depositar, retirar, mostrar movimientos, salir o rechazar una opción inexistente (default).
-if / else anidados	Validar que el depósito y el retiro sean mayores que cero, y que el retiro no supere el saldo disponible.
-for	Recorrer el arreglo de movimientos desde 1 hasta numMov al elegir "Mostrar movimientos".
-Contadores	depositos, retiros y numMov cuentan las operaciones realizadas.
-Acumuladores	totalDepositado, totalRetirado y saldo van sumando o restando los montos de cada operación.
-Variable de control	opcion (opción elegida en el menú) e i (posición del movimiento que se muestra).
+### Estructuras utilizadas
+
+| Estructura | Uso en el Ejercicio 4 |
+|---|---|
+| `do-while` | Mantener el menú activo hasta que el usuario elija Salir (`5` o `S`). |
+| `switch` | Ejecutar la acción según `opcion`: consultar saldo, depositar, retirar, mostrar movimientos, salir o rechazar una opción inexistente (`default`). |
+| `if` / `else` anidados | Validar que el depósito y el retiro sean mayores que cero, y que el retiro no supere el saldo disponible. |
+| `for` | Recorrer el arreglo de movimientos desde 1 hasta `numMov` al elegir "Mostrar movimientos". |
+| Contadores | `depositos`, `retiros` y `numMov` cuentan las operaciones realizadas. |
+| Acumuladores | `totalDepositado`, `totalRetirado` y `saldo` van sumando o restando los montos de cada operación. |
+| Variable de control | `opcion` (opción elegida en el menú) e `i` (posición del movimiento que se muestra). |
+
 
 
 #### ANÁLISIS
