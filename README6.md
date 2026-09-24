@@ -112,3 +112,12 @@ FinAlgoritmo
 | | 2 | 2 <= 3 (Sí) | 1, 2 | 1<=2, 2<=2 (Sí) | `12` | Imprime valores de `j` (1, luego 2). Salto de línea. |
 | | 3 | 3 <= 3 (Sí) | 1, 2, 3 | 1<=3, 2<=3, 3<=3 | `123` | Imprime valores de `j` (1, 2, 3). Salto de línea. |
 | | 4 | 4 <= 3 (No) | - | - | - | Fin del Patrón 3 y del programa |
+
+#### EVIDENCIAS / CAPTURAS
+<img width="413" height="493" alt="WhatsApp Image 2026-09-24 at 11 34 50 AM" src="https://github.com/user-attachments/assets/d8a28be2-04b9-4c40-ae94-ca18c2b459a3" />
+
+#### CONCLUSIONES
+
+Se comprendió el funcionamiento de los ciclos for anidados para generar diferentes patrones.
+Se pudo observar cómo el ciclo exterior controla las filas y el ciclo interior controla los elementos de cada fila.
+
