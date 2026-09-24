@@ -48,6 +48,12 @@
 * **Salidas:**
   * Impresión secuencial en consola de los 3 patrones gráficos y numéricos.
 
+  **DIAGRAMA DE FLUJO**
+
+
+  <img width="274" height="1600" alt="image" src="https://github.com/user-attachments/assets/b774a2b1-a890-40db-b862-1af0de5da7c7" />
+
+
 
 #### PSEUDOCODIGO
 
