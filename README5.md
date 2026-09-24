@@ -2,7 +2,7 @@
 
 ### Estructuras utilizadas
 
-| Estructura | Uso en el Ejercicio 5 |
+| Estructura | Definición  |
 |---|---|
 | `do-while` externo | Repetir el registro de vehículos hasta que el usuario responda `N` en `respuesta`. |
 | `do-while` internos | Validar que `tipo` esté entre 1 y 3, que `horas` sea mayor que cero y que `respuesta` sea `S` o `N`. |
