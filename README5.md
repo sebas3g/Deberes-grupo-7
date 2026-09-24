@@ -39,7 +39,7 @@
 * **Salidas:**
   * Reporte impreso al finalizar el ciclo con el desglose de contadores por tipo de vehículo, el total acumulado y el promedio general.
 
-## PSEUCODIGO
+#### PSEUCODIGO
 
     
     Algoritmo Estacionamiento
@@ -117,7 +117,7 @@
     Escribir "==================="
 FinAlgoritmo
 
-##### PRUEBA DE ESCRITORIO
+#### PRUEBA DE ESCRITORIO
 
 | Paso | Tipo (`tipoVehiculo`) | Horas (`horas`) | Validación Horas | Tarifa (`tarifaHora`) | Cobro (`horas * tarifa`) | `cantMotos` | `cantAutos` | `cantCamionetas` | `totalVehiculos` | `totalRecaudado` | Continuar (`continuar`) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
