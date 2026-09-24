@@ -44,6 +44,124 @@
 * **Salidas:**
   * Reporte de estadísticas con: número de ventas, cantidad total de productos, total recaudado, promedio por venta y producto con mayor cantidad vendida.
 
+## PSEUDOCODIGO 
+
+
+    Algoritmo CafeteriaUniversitaria
+    Definir opcion, producto, cantidad Como Entero
+    Definir numVentas, cantidadTotal Como Entero
+    Definir cantCafe, cantSandwich, cantJugo, cantEmpanada Como Entero
+    Definir mayorCantidad Como Entero
+    Definir precio, subtotal, totalRecaudado, promedio Como Real
+    Definir nombreMayor Como Caracter
+    
+
+    numVentas <- 0
+    cantidadTotal <- 0
+    totalRecaudado <- 0
+    cantCafe <- 0
+    cantSandwich <- 0
+    cantJugo <- 0
+    cantEmpanada <- 0
+
+    Repetir
+        Escribir "================================"
+        Escribir "    CAFETERIA UNIVERSITARIA"
+        Escribir "================================"
+        Escribir "1. Registrar venta"
+        Escribir "2. Mostrar estadisticas"
+        Escribir "3. Mostrar tabla de productos"
+        Escribir "4. Salir"
+        Escribir "================================"
+        Escribir "Elija una opcion: "
+        Leer opcion
+
+        Segun opcion Hacer
+            1:
+                // Validar producto
+                Repetir
+                    Escribir "Producto (1. Cafe, 2. Sandwich, 3. Jugo, 4. Empanada): "
+                    Leer producto
+                    Si producto < 1 O producto > 4 Entonces
+                        Escribir "Producto no valido"
+                    FinSi
+                Hasta Que producto >= 1 Y producto <= 4
+
+                // Validar cantidad
+                Repetir
+                    Escribir "Cantidad: "
+                    Leer cantidad
+                    Si cantidad <= 0 Entonces
+                        Escribir "La cantidad debe ser mayor que cero"
+                    FinSi
+                Hasta Que cantidad > 0
+
+                // Precio y acumulador por producto
+                Segun producto Hacer
+                    1:
+                        precio <- 1.00
+                        cantCafe <- cantCafe + cantidad
+                    2:
+                        precio <- 2.50
+                        cantSandwich <- cantSandwich + cantidad
+                    3:
+                        precio <- 1.50
+                        cantJugo <- cantJugo + cantidad
+                    4:
+                        precio <- 1.25
+                        cantEmpanada <- cantEmpanada + cantidad
+                FinSegun
+
+                subtotal <- precio * cantidad
+                numVentas <- numVentas + 1
+                cantidadTotal <- cantidadTotal + cantidad
+                totalRecaudado <- totalRecaudado + subtotal
+                Escribir "Venta registrada. Subtotal: $", subtotal
+
+            2:
+                Si numVentas = 0 Entonces
+                    Escribir "Aun no hay ventas registradas"
+                Sino
+                    promedio <- totalRecaudado / numVentas
+
+                    // Buscar el producto mas vendido
+                    mayorCantidad <- cantCafe
+                    nombreMayor <- "Cafe"
+                    Si cantSandwich > mayorCantidad Entonces
+                        mayorCantidad <- cantSandwich
+                        nombreMayor <- "Sandwich"
+                    FinSi
+                    Si cantJugo > mayorCantidad Entonces
+                        mayorCantidad <- cantJugo
+                        nombreMayor <- "Jugo"
+                    FinSi
+                    Si cantEmpanada > mayorCantidad Entonces
+                        mayorCantidad <- cantEmpanada
+                        nombreMayor <- "Empanada"
+                    FinSi
+
+                    Escribir "Numero de ventas: ", numVentas
+                    Escribir "Cantidad total de productos: ", cantidadTotal
+                    Escribir "Total recaudado: $", totalRecaudado
+                    Escribir "Promedio por venta: $", promedio
+                    Escribir "Producto mas vendido: ", nombreMayor, " (", mayorCantidad, " unidades)"
+                FinSi
+
+            3:
+                Escribir "No.  Producto    Precio"
+                Escribir "1.   Cafe        $1.00"
+                Escribir "2.   Sandwich    $2.50"
+                Escribir "3.   Jugo        $1.50"
+                Escribir "4.   Empanada    $1.25"
+
+            4:
+                Escribir "Hasta luego"
+
+            De Otro Modo:
+                Escribir "Opcion no valida, intente de nuevo"
+        FinSegun
+    Hasta Que opcion = 4
+FinAlgoritmo
 
 ### PRUEBA DE ESCRITORIO
 
