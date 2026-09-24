@@ -1,13 +1,14 @@
 
 PSEUDOCODIGO 
-Algoritmo CajeroAcademico
+
+    Algoritmo CajeroAcademico
     Definir opcion Como Caracter
     Definir saldo, monto, totalDepositado, totalRetirado Como Real
     Definir depositos, retiros, numMov, i Como Entero
     Dimension tipoMov[200], montoMov[200]
     Definir tipoMov Como Caracter
-    Definir montoMov Como Real
-
+    Definir montoMov Como Rea
+    
     saldo <- 100.00
     totalDepositado <- 0
     totalRetirado <- 0
