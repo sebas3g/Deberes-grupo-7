@@ -300,8 +300,8 @@ Cantidad de estudiantes por semestre:
   Semestre 5: 1
 ```
 
-<!-- Reemplazar por la captura real subida a GitHub -->
-![Ejecución Ejercicio 9](./evidencias/ejercicio09.png)
+CAPTURA
+
 
 ### Conclusiones
 
