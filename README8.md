@@ -73,16 +73,6 @@ Posteriormente deberá crear voluntariamente otro ejemplo que produzca un error 
 <img width="429" height="982" alt="Ejercicio08" src="https://github.com/user-attachments/assets/e0b33525-621e-46bd-9470-7456ab57d890" />
 
 
-```mermaid
-flowchart TD
-    A([Inicio]) --> B[numero = 1]
-    B --> C{numero <= 10?}
-    C -- Sí --> D[/Mostrar numero/]
-    D --> E["numero = numero + 1 (corrección)"]
-    E --> C
-    C -- No --> F([Fin])
-```
-
 ### Pseudocódigo
 
 ```
@@ -218,26 +208,6 @@ El programa suma correctamente del 1 al 10 y muestra `55`.
 | Error 2 con `i <= 10` | `for` de 1 a 10 | Suma = 55 (correcto). |
 
 ### Capturas o evidencias
-
-Salida de la ejecución del programa corregido (`Ejercicio08/Main.java`):
-
-```
-=== Parte 1: numeros del 1 al 10 (corregido) ===
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-
-=== Parte 2: suma de 1 a 10 ===
-Suma con error (i < 10): 45
-Suma corregida (i <= 10): 55
-```
 
 <img width="339" height="191" alt="Captura de pantalla 2026-09-25 092720" src="https://github.com/user-attachments/assets/df89506a-9a2b-4382-a9f7-71d3058be9f6" />
 
