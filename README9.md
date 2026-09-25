@@ -87,45 +87,7 @@ Para el último requisito deberán utilizar ciclos anidados o una estrategia equ
 
 ### Diagrama de flujo
 
-```mermaid
-flowchart TD
-    A([Inicio]) --> B[/Leer n/]
-    B --> C{n <= 0?}
-    C -- Sí --> C1[/"Mostrar: debe ser mayor que cero"/] --> B
-    C -- No --> D["sumaEdad = 0, sumaHoras = 0, maxHoras = -1, menosDeDos = 0, i = 1"]
-    D --> E{i <= n?}
-    E -- Sí --> F[/Leer edad/]
-    F --> F1{"edad < 16 o edad > 80?"}
-    F1 -- Sí --> F2[/"Mostrar: edad invalida"/] --> F
-    F1 -- No --> G[/Leer semestre/]
-    G --> G1{"semestre < 1 o semestre > 10?"}
-    G1 -- Sí --> G2[/"Mostrar: semestre invalido"/] --> G
-    G1 -- No --> H[/Leer horas/]
-    H --> H1{"horas < 0 o horas > 24?"}
-    H1 -- Sí --> H2[/"Mostrar: horas invalidas"/] --> H
-    H1 -- No --> I["semestres[i] = semestre, sumaEdad += edad, sumaHoras += horas"]
-    I --> J{horas > maxHoras?}
-    J -- Sí --> J1["maxHoras = horas, estudianteMax = i"] --> K
-    J -- No --> K{horas < 2?}
-    K -- Sí --> K1[menosDeDos = menosDeDos + 1] --> L
-    K -- No --> L[i = i + 1]
-    L --> E
-    E -- No --> M["edadPromedio = sumaEdad / n, horasPromedio = sumaHoras / n"]
-    M --> N[/Mostrar resultados/]
-    N --> O[s = 1]
-    O --> P{s <= 10?}
-    P -- No --> Z([Fin])
-    P -- Sí --> Q["contador = 0, j = 1"]
-    Q --> R{j <= n?}
-    R -- Sí --> S{"semestres[j] = s?"}
-    S -- Sí --> S1[contador = contador + 1] --> T
-    S -- No --> T[j = j + 1]
-    T --> R
-    R -- No --> U{contador > 0?}
-    U -- Sí --> U1[/"Mostrar Semestre s: contador"/] --> V
-    U -- No --> V[s = s + 1]
-    V --> P
-```
+<img width="539" height="1257" alt="Ejercicio09" src="https://github.com/user-attachments/assets/dee29843-0f20-4d79-9415-b37ef5c1d33e" />
 
 ### Pseudocódigo
 
@@ -260,48 +222,13 @@ Promedios: `edadPromedio = 63 / 3 = 21.00` y `horasPromedio = 14.5 / 3 = 4.83`.
 
 ### Capturas o evidencias
 
-Salida de la ejecución con los datos de la prueba de escritorio (`Ejercicio09/Main.java`):
+<img width="432" height="101" alt="Captura de pantalla 2026-09-25 093938" src="https://github.com/user-attachments/assets/85697e1b-2e9a-4ae5-b604-d68c411b7730" />
 
-```
-Cuantos estudiantes participaran: 0
-El numero de estudiantes debe ser mayor que cero
-Cuantos estudiantes participaran: 3
+<img width="362" height="210" alt="Captura de pantalla 2026-09-25 093947" src="https://github.com/user-attachments/assets/3c347ef7-9fc3-4ed7-9798-b7084d4eb8d0" />
 
---- Estudiante 1 ---
-Edad: 15
-Edad invalida. Debe estar entre 16 y 80
-Edad: 18
-Semestre: 2
-Horas de estudio por dia: 5
+<img width="406" height="165" alt="Captura de pantalla 2026-09-25 093255" src="https://github.com/user-attachments/assets/14020678-55d9-4b0a-aa4b-aaeed8a13edf" />
 
---- Estudiante 2 ---
-Edad: 20
-Semestre: 11
-Semestre invalido. Debe estar entre 1 y 10
-Semestre: 2
-Horas de estudio por dia: 1.5
-
---- Estudiante 3 ---
-Edad: 25
-Semestre: 5
-Horas de estudio por dia: 25
-Horas invalidas. Deben estar entre 0 y 24
-Horas de estudio por dia: 8
-
-===================================
-      RESULTADOS DE LA ENCUESTA
-===================================
-Edad promedio: 21.00
-Horas promedio de estudio: 4.83
-Estudiante con mas horas: Estudiante 3 (8.00 horas)
-Estudiantes que estudian menos de 2 horas: 1
-Cantidad de estudiantes por semestre:
-  Semestre 2: 2
-  Semestre 5: 1
-```
-
-CAPTURA
-
+<img width="338" height="163" alt="Captura de pantalla 2026-09-25 093929" src="https://github.com/user-attachments/assets/db843190-f5f0-4c3b-b161-b1d5ef5617af" />
 
 ### Conclusiones
 
