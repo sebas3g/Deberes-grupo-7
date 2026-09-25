@@ -70,6 +70,9 @@ Posteriormente deberá crear voluntariamente otro ejemplo que produzca un error 
 
 ### Diagrama de flujo
 
+<img width="429" height="982" alt="Ejercicio08" src="https://github.com/user-attachments/assets/e0b33525-621e-46bd-9470-7456ab57d890" />
+
+
 ```mermaid
 flowchart TD
     A([Inicio]) --> B[numero = 1]
@@ -236,7 +239,12 @@ Suma con error (i < 10): 45
 Suma corregida (i <= 10): 55
 ```
 
-CAPTURA
+<img width="339" height="191" alt="Captura de pantalla 2026-09-25 092720" src="https://github.com/user-attachments/assets/df89506a-9a2b-4382-a9f7-71d3058be9f6" />
+
+<img width="517" height="61" alt="Captura de pantalla 2026-09-25 092738" src="https://github.com/user-attachments/assets/fcfa85f4-f05a-4a40-a5cd-52279753c33a" />
+
+<img width="294" height="135" alt="Captura de pantalla 2026-09-25 092752" src="https://github.com/user-attachments/assets/45e962ca-8930-4ceb-8143-e3f83ef4a9fc" />
+
 
 ### Conclusiones
 
