@@ -222,13 +222,16 @@ Promedios: `edadPromedio = 63 / 3 = 21.00` y `horasPromedio = 14.5 / 3 = 4.83`.
 
 ### Capturas o evidencias
 
+<img width="406" height="165" alt="Captura de pantalla 2026-09-25 093255" src="https://github.com/user-attachments/assets/14020678-55d9-4b0a-aa4b-aaeed8a13edf" />
+<img width="338" height="163" alt="Captura de pantalla 2026-09-25 093929" src="https://github.com/user-attachments/assets/db843190-f5f0-4c3b-b161-b1d5ef5617af" />
+
 <img width="432" height="101" alt="Captura de pantalla 2026-09-25 093938" src="https://github.com/user-attachments/assets/85697e1b-2e9a-4ae5-b604-d68c411b7730" />
 
 <img width="362" height="210" alt="Captura de pantalla 2026-09-25 093947" src="https://github.com/user-attachments/assets/3c347ef7-9fc3-4ed7-9798-b7084d4eb8d0" />
 
-<img width="406" height="165" alt="Captura de pantalla 2026-09-25 093255" src="https://github.com/user-attachments/assets/14020678-55d9-4b0a-aa4b-aaeed8a13edf" />
 
-<img width="338" height="163" alt="Captura de pantalla 2026-09-25 093929" src="https://github.com/user-attachments/assets/db843190-f5f0-4c3b-b161-b1d5ef5617af" />
+
+
 
 ### Conclusiones
 
