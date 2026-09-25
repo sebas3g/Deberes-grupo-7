@@ -117,55 +117,7 @@ si perdió el boleto     → valor = valor + 5.00
 
 ### Diagrama de flujo
 
-**Menú principal**
-
-```mermaid
-flowchart TD
-    A([Inicio]) --> B[/Mostrar menu/]
-    B --> C[/Leer opcion/]
-    C --> C1{"opcion < 1 o opcion > 5?"}
-    C1 -- Sí --> C2[/"Mostrar: valor invalido"/] --> C
-    C1 -- No --> D{opcion}
-    D -- 1 --> E[Registrar vehiculo]
-    D -- 2 --> F[Mostrar vehiculos]
-    D -- 3 --> G[Mostrar estadisticas]
-    D -- 4 --> H[Mostrar recaudacion]
-    D -- 5 --> I[Mostrar reporte final]
-    E --> J{opcion != 5?}
-    F --> J
-    G --> J
-    H --> J
-    I --> J
-    J -- Sí --> B
-    J -- No --> Z([Fin])
-```
-
-**Registrar vehículo y calcular valor**
-
-```mermaid
-flowchart TD
-    A([Registrar vehiculo]) --> B[/"Leer tipo, rol, horas, dia y boleto (cada uno validado con while)"/]
-    B --> C{tipo}
-    C -- 1 --> C1[tarifa = 0.75]
-    C -- 2 --> C2[tarifa = 0.50]
-    C -- 3 --> C3[tarifa = 1.00]
-    C1 --> D{rol}
-    C2 --> D
-    C3 --> D
-    D -- 1 --> D1[descuento = 0.50]
-    D -- 2 --> D2[descuento = 0.25]
-    D -- 3 --> D3[descuento = 0]
-    D1 --> E["valor = tarifa * horas * (1 - descuento)"]
-    D2 --> E
-    D3 --> E
-    E --> F{"dia = 6 o dia = 7?"}
-    F -- Sí --> F1["valor = valor * 1.20"] --> G
-    F -- No --> G{boleto perdido?}
-    G -- Sí --> G1["valor = valor + 5.00"] --> H
-    G -- No --> H["Guardar datos en los arreglos, cantidad = cantidad + 1"]
-    H --> I[/Mostrar valor a pagar/]
-    I --> Z([Volver al menu])
-```
+<img width="1071" height="872" alt="Ejercicio10" src="https://github.com/user-attachments/assets/376a1406-62af-429a-aecb-90050ca605d7" />
 
 ### Pseudocódigo
 
@@ -363,38 +315,15 @@ Estadísticas: 1 auto, 1 moto, 1 camioneta; 1 estudiante, 1 docente, 1 visitante
 
 ### Capturas o evidencias
 
-Reporte final obtenido al ejecutar `Ejercicio10/Main.java` con los datos de la prueba de escritorio:
+<img width="557" height="250" alt="Captura de pantalla 2026-09-25 094649" src="https://github.com/user-attachments/assets/a0ae1c21-834c-484e-b288-526460348e58" />
 
-```
-========== REPORTE FINAL ==========
+<img width="552" height="183" alt="Captura de pantalla 2026-09-25 094719" src="https://github.com/user-attachments/assets/38d03342-2c59-449d-a899-caa4e2581839" />
 
---- VEHICULOS REGISTRADOS ---
-1. Auto       Estudiante   2 h  Lunes      Boleto perdido: No  $0.75
-2. Moto       Visitante    3 h  Sabado     Boleto perdido: No  $1.80
-3. Camioneta  Docente      4 h  Miercoles  Boleto perdido: Si  $8.00
+<img width="274" height="119" alt="Captura de pantalla 2026-09-25 094800" src="https://github.com/user-attachments/assets/4b77d5f7-c0fb-481a-88ed-0928c3b22152" />
 
---- ESTADISTICAS ---
-Vehiculos registrados: 3
-Cantidad por tipo:
-  Auto: 1
-  Moto: 1
-  Camioneta: 1
-Cantidad por rol:
-  Estudiante: 1
-  Docente: 1
-  Visitante: 1
-Total de horas: 9
-Promedio de permanencia: 3.00 horas
+<img width="387" height="167" alt="Captura de pantalla 2026-09-25 094810" src="https://github.com/user-attachments/assets/dbb36ca0-70da-4e5b-a66c-8d50bfbad31c" />
 
---- RECAUDACION ---
-Total recaudado: $10.55
-Mayor valor pagado: $8.00
-Menor valor pagado: $0.75
-Gracias por usar el sistema.
-```
-
-<!-- Reemplazar por la captura real subida a GitHub -->
-
+<img width="253" height="117" alt="Captura de pantalla 2026-09-25 094825" src="https://github.com/user-attachments/assets/e3066e28-f18f-4c62-9971-1faf4be7a830" />
 
 ### Conclusiones
 
